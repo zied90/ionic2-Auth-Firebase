@@ -1,0 +1,36 @@
+  <ion-content class="background"> 
+    <h1>Alphalog Développement</h1>
+    <ion-card>
+        <ion-card-header>
+          LOGIN
+        </ion-card-header>
+      <ion-card-content>
+    <ion-list no-lines>
+    <ion-item>
+      <ion-label floating>Username</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+    <ion-item>
+      <p> Forget password ? <a>Get here</a></p>
+    </ion-item>
+  <button  ion-button color="danger" block outline>LOGIN</button>
+   </ion-list>
+   <b> OR </b>
+   <button ion-button color="primary" ion-left block> 
+   <ion-icon name="logo-facebook"></ion-icon>
+   <div> Login with facebook</div>
+   </button>
+ <button ion-button color="danger" ion-left block (click)="login()"> 
+   <ion-icon name="logo-google"></ion-icon>
+   <div> Login with google</div>
+   </button>
+      </ion-card-content>
+    </ion-card>
+
+
+  </ion-content>
